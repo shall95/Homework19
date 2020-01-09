@@ -1,0 +1,110 @@
+
+.jumbotron {
+  background-image: url(../images/jumboback.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  clip-path: polygon(50% 85%, 0 100%, 0 0, 100% 0, 100% 100%);
+}
+
+.display-4 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.EA{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.PD {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-top: 20px; 
+}
+
+.card {
+    margin: 0 auto;
+    height: 100%;
+    background-size: contain;
+  }
+
+.cardContainer {
+    padding-top: 20px;
+    height: 350px;
+
+  }
+
+.container-fluid {
+    padding-bottom: 20px;
+}
+
+.flight {
+    background-image: url(../images/flight.png);
+}
+
+.hotel {
+    background-image: url(../images/hotel.png);
+}
+
+.trips {
+    background-image: url(../images/Trip.png);
+}
+
+.cardheaders{
+    display: flex;
+    justify-content: center;
+}
+
+.join {
+    background-image: url(../images/join.png);
+    width: 100vh;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}
+
+.aboutp {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin: 75px;
+}
+
+.undersky {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.skillslist {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin: 75px;
+}
+
+.moreInfo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 150 px;
+    width: 100%;
+
+}
+
+
